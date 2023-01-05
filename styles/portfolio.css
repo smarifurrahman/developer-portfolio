@@ -196,3 +196,40 @@ section {
     display: flex;
     justify-content: center;
 }
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 100px 200px;
+
+}
+
+.contact-section .section-title {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact-section textarea{
+    resize: none;
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.contact-section a{
+    text-decoration: none;
+    padding-right: 24px;
+}
