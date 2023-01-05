@@ -97,7 +97,7 @@ section {
     font-weight: 700;
     font-size: 35px;
     color: #181818;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .section-description {
@@ -151,4 +151,48 @@ section {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+/* Resume Section */
+.resume-content {
+    display: flex;
+    gap:24px
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right:  30px;
+}
+
+.resume-item .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-item .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-item .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.download-cv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
