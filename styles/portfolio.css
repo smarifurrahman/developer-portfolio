@@ -15,6 +15,37 @@
     border: 0;
     border-radius: 5px;
     padding: 18px 36px;
+    cursor: pointer;
+
+}
+
+.btn-outlined {
+    outline: 1px solid;
+    color: #FD6E0A;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 36px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.btn-primary:hover {
+    outline: 1px solid;
+    color: #FD6E0A;
+    background-color: transparent;
+}
+
+.btn-outlined:hover {
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    outline: none;
 }
 
 /* header and navigation styles */
@@ -203,7 +234,6 @@ section {
     gap: 100px;
     background-color: #FFF8F3;
     padding: 100px 200px;
-
 }
 
 .contact-section .section-title {
